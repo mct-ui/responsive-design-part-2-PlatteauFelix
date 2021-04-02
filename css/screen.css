@@ -630,6 +630,85 @@ a:focus {
     background-color: #fff
 }
 
+/*
+    Component: footer
+    ---
+    Main footer of the website
+*/
+
+.c-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.c-footer__logo {
+    height: 32px;
+}
+
+.c-footer__nav {
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    padding: 8px 0;
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .c-footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .c-footer__logo {
+        height: 40px;
+    }
+
+    .c-footer__nav {
+        display: block;
+    }
+}
+
+@media (min-width: 992px) {
+    .c-footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .c-footer__logo {
+        height: 48px;
+    }
+
+    .c-footer__nav {
+        display: block;
+    }
+}
+
+/*
+    Component: Title icon
+    ---
+    Special type of title with icon
+*/
+
+.c-title-icon {
+    height: 32px;
+}
+
+.c-title-icon__icon {
+    height: 100%
+}
+
+@media (min-width: 768px) {
+    .c-title-icon {
+        height: 40px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .c-title-icon {
+        height: 48px;
+    }
+}
+
 
 
 /*------------------------------------*\
