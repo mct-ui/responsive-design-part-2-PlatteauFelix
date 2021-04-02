@@ -65,7 +65,7 @@ html {
 
 ::selection {
     background: #5051DB;
-    color: white;
+    color: #fff;
     text-shadow: none;
 }
 
@@ -202,6 +202,11 @@ a:focus {
 
 .o-row--neutral-x-light {
     background: #F7F7F7
+}
+
+.o-row--blue {
+    background: linear-gradient(to top right, #5051DB ,#3887F7);
+    color: #fff;
 }
 
 /* size modifiers */
@@ -608,6 +613,21 @@ a:focus {
 .c-link-cta:hover::after {
     transform: scaleX(1);
     background-color: #3E3EA8;
+}
+
+/* inversed */
+.c-link-cta--inverse,
+.c-link-cta--inverse:visited,
+.c-link-cta--inverse:active {
+    color: #fff;
+}
+
+.c-link-cta--inverse::after {
+    background-color: #fff
+}
+
+.c-link-cta--inverse:hover::after {
+    background-color: #fff
 }
 
 
